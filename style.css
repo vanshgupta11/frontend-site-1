@@ -1,0 +1,312 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+      font-family: "Open Sans", sans-serif;
+      /* background-color:#F4F4F4 ; */
+    box-sizing: border-box;
+}
+
+#main{
+    width: 100%;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 10vw;
+    position: relative;
+}
+#nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    font-weight: 800;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+}
+#nav #centeratag{
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#hero{
+    width: 100%;
+    margin-top: 15vw;
+    padding: 0 10vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#sustain{
+    width: 12vw;
+}
+#sustain #sustain_image{
+    width: 100%;
+    height: 18vw;
+    position: relative;
+    overflow: hidden;
+}
+#sustain p{
+    font-size: 13px;
+    font-weight: 800;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 10px 0;
+}
+ #sustain_image img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+ }
+ #eph{
+    position: relative;
+    height: 42vw;
+    width: 30vw;
+ 
+ }
+ #eph #headings{
+    position: absolute;
+    top: -22%;
+    left: -20%;
+ }
+ #eph .imagentext{
+        height: 42vw;
+    width: 30vw;
+ }
+ #eph img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ #eph h1{
+    letter-spacing: -0.4vw;
+    font-size: 6vw;
+    line-height: 1;
+    font-weight: 400;
+ }
+ #eph p{
+    position: absolute;
+    width: 40%;
+    top: 105%;
+    font-size: 1.3vw;
+    letter-spacing: -0.07vw;
+ }
+ #visit{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+ }
+ #circlev{
+    height: 3vw;
+    width: 3vw;
+    border: 1px solid #5e5e5e;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+    cursor: pointer;
+ }
+ #visit h3{
+    color: #5e5e5e;
+    font-weight: 400;
+ }
+ #circlev i{
+    color: #5e5e5e;
+ }
+ #motive{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 17vw;
+    padding: 2vw 10vw;
+ }
+ #motive p{
+    letter-spacing: -.1vw;
+    line-height: 1.6;
+    position: relative;
+    right: 0;
+   width: 90%;
+   text-align: right;
+   font-size: 2.1vw;
+ }
+ #motive span{
+    display: inline-block;
+    /* height: 50px;
+    width: 120px; */
+    margin: 0 13px;
+    margin-bottom: -12px ;
+    border-radius: 100px;
+    background-color: red;
+ }
+ #one{
+    height: 50px;
+    width: 80px;
+    background-image: url(./images/bluegirl.jpg);
+    background-size: cover;
+    background-position: 0% 60%;
+ }
+ #two{
+    height: 50px;
+    width: 120px;
+    background-image: url(./images/shaljam.jpg);
+    background-size: cover;
+    background-position: 0 48%;
+ }
+ #three{
+    height: 50px;
+    width: 80px;
+    background-image: url(./images/grass.jpg);
+    background-size: cover;
+    background-position: 0 48%;
+ }
+ #pictures{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 3vw;
+    margin-top: 8vw;
+    padding-left: 14vw;
+    padding-right: 12vw;
+
+ }
+ #first{
+    width: 17vw;
+ }
+#first #pic {
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+
+ }
+ #pic img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+ }
+ #first h1{
+    font-size: 2vw;
+    font-weight: 400;
+ }
+ #first p{
+    opacity: 0.8;
+    font-size: 1vw;
+    margin-top: 10px;
+ }
+  #second{
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+ }
+#second #pic {
+    width: 100%;
+    height: 40vw;
+    margin-bottom: 1vw;
+    
+ }
+  #second h1{
+    font-size: 2vw;
+    font-weight: 400;
+ }
+ #second p{
+    width: 70%;
+    opacity: 0.8;
+    text-align: right;
+    font-size: 1vw;
+    margin-top: 10px;
+ }
+ #banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+    
+ }
+ #banner #bimg{
+    width: 65%;
+    height: 60vh;
+    
+ }
+ #bimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0  70%;
+ }
+ #btext{
+    width: 35%;
+    padding: 0 3vw;
+ }
+ #btext h1{
+    font-size: 2.4vw;
+    line-height: 1;
+    font-weight: 400;
+ }
+ #btext p{
+    margin-top: 20px;
+    width: 60%;
+    font-size: 1vw;
+ }
+ #future{
+    height: 100vh;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    background-color: #fff;
+ }
+ #future video{
+    /* height: 100%; */
+    width: 100%;
+    position: absolute;
+  opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ }
+ #ftext{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #fff;
+    padding:1vw 2.5vw;
+    border-radius: 10px;
+    position: relative;
+    z-index:9999 ;
+ }
+ button{
+    padding: 1vw 2vw;
+    font-size: 0.7vw;
+    margin-top: 10px;
+   border-radius: 100px;
+   border: 1px solid #c6c6c6;
+   background-color: #fff;
+    font-weight: 700;
+    color: #6f6f6f;
+ }
+i:hover{
+   animation: down 0.8s ease ;
+}
+@keyframes down {
+   0%{
+      transform: translate(0);
+   }
+   
+   50%{
+      transform: translateY(2vw);
+   }
+   
+   100%{
+      transform: translate(0);
+   }
+}
